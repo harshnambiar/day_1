@@ -20,6 +20,10 @@
       "main": "src/day_1/contains_module.mo",
       "type": "motoko"
     },
+    "list": {
+      "main": "src/day_1/list.mo",
+      "type": "motoko"
+    },
     "day_1_assets": {
       "dependencies": [
         "day_1"
