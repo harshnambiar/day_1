@@ -1,11 +1,23 @@
 {
   "canisters": {
-    "day_1": {
+    "main": {
       "main": "src/day_1/main.mo",
+      "type": "motoko"
+    },
+    "day_1": {
+      "main": "src/day_1/day_1.mo",
       "type": "motoko"
     },
     "day_2": {
       "main": "src/day_1/day_2.mo",
+      "type": "motoko"
+    },
+    "day_3": {
+      "main": "src/day_1/day_3.mo",
+      "type": "motoko"
+    },
+    "contains_module": {
+      "main": "src/day_1/contains_module.mo",
       "type": "motoko"
     },
     "day_1_assets": {
