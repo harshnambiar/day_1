@@ -24,6 +24,18 @@
       "main": "src/day_1/list.mo",
       "type": "motoko"
     },
+    "day_5": {
+      "main": "src/day_1/day_5.mo",
+      "type": "motoko"
+    },
+    "stable_hash": {
+      "main": "src/day_1/stable_hash.mo",
+      "type": "motoko"
+    },
+    "withdraw_cycles": {
+      "main": "src/day_1/withdraw_cycles.mo",
+      "type": "motoko"
+    },
     "day_1_assets": {
       "dependencies": [
         "day_1"
