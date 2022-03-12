@@ -36,6 +36,10 @@
       "main": "src/day_1/withdraw_cycles.mo",
       "type": "motoko"
     },
+    "mint_from_elsewhere": {
+      "main": "src/day_1/mint_from_elsewhere.mo",
+      "type": "motoko"
+    },
     "day_1_assets": {
       "dependencies": [
         "day_1"

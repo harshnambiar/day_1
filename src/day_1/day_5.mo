@@ -5,12 +5,13 @@ import HashMap "mo:base/HashMap";
 import Option "mo:base/Option";
 import Principal "mo:base/Principal";
 import Cycles "mo:base/ExperimentalCycles";
+import Hash "mo:base/Hash";
 //import WithdrawCycles "withdraw_cycles";
 
 
 actor {
     //challenge 2 on day 5
-    var favorite_number  = HashMap.HashMap<Principal, Nat>(0, Principal.equal, Principal.hash);
+    var favorite_number  = HashMap.HashMap<Principal, Nat>(0, Principal.equal, Hash.hash);
     //end of challenge 2 on day 5
 
     //challenge 8 on day 5
