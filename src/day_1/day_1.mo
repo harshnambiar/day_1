@@ -36,12 +36,7 @@ actor {
 
 //challenge 5 on day 1
 	public func divide(n : Nat, m : Nat) : async Bool {
-		if (m % n == 0) {
-			return true;
-		}
-		else {
-			return false;
-		};
+		return (n/m);
 	};
 
 //challenge 6 on day 1
